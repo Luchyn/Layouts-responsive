@@ -31,6 +31,17 @@
     display: inline-block;
 
     margin-right: .7rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: .7rem;
     margin-left: .7rem;
+}
+
+
+/**********************MEDIA************************/
+
+@media screen and (min-width: 1024px) {
+    .head {
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
 }

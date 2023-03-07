@@ -1,6 +1,6 @@
 .planes {
     background-color: var(--background-ceniza-claro);
-    
+
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -68,15 +68,12 @@
 }
 
 .tarjetas__boton {
+    display:block;
     font-size: 1.2rem;
     font-weight: 700;
-
     width: 100%;
-
     align-self: center;
-
     padding: .75rem 2rem;
-
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -103,4 +100,24 @@
 
 .tarjetas__boton--mega {
     border-color: var(--planes-card-mega);
+}
+
+
+/*******************************MEDIA***************************/
+@media screen and (min-width: 768px){
+
+    .tarjetas {
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .planes__tarjetas {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .tarjetas {
+        max-width: 300px;
+    }
 }
